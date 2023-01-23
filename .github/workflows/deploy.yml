@@ -13,16 +13,16 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v3
 
-  #  - name: Install poetry
-  #    run: pipx install poetry
+    - name: Install poetry
+      run: pipx install poetry
 
     - name: Set up Python and cache poetry dependencies
       uses: actions/setup-python@v4
       with:
         python-version: 3.10.8
-       # cache: poetry
-   # - name: Install dependencies
-      #run: poetry install --no-root
+        cache: poetry
+    - name: Install dependencies
+      run: poetry install --no-root
 
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
@@ -33,9 +33,9 @@ jobs:
         to: html
         path: site
     
-    #- name: Process HTML outputs for nicer site render
-     # run: curl -s -S https://gist.githubusercontent.com/AlFontal/233c9ad8afe27e68f23138fcacf2d767/raw > clean_notebook.py; 
-    #         poetry run python clean_notebook.py --path site/_site
+    - name: Process HTML outputs for nicer site render
+      run: curl -s -S https://gist.githubusercontent.com/AlFontal/233c9ad8afe27e68f23138fcacf2d767/raw > clean_notebook.py; 
+             poetry run python clean_notebook.py --path site/_site
 
     - name: Deploy to Github Pages
       uses: peaceiris/actions-gh-pages@v3.9.0
