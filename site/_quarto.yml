@@ -27,7 +27,7 @@ website:
     left:
       - text: |
           <div class="msca-container flex-container">
-          <div class="msca-text">This project his very nice</div>
+          <div class="msca-text">This project is very nice</div>
           </div>
       
     right: |
@@ -67,7 +67,7 @@ format:
     highlight-style: github
     theme:
       light: litera
-   # css: styles.css
+   # css: custom.css
     toc: true
     toc-location: right
     code-tools: false

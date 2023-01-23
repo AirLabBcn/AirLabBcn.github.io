@@ -8,7 +8,7 @@ subtitle: An ISGlobal facility
 The AIRLAB was established in 2019 to promote research and innovation in the characterisation of the chemical and biological composition of the air and its effects on human health. Our objective is to provide scientific and technical support on the monitoring of air quality, air sampling and analysis of (bio)aerosols, both from indoor and outdoor environments. The AIRLAB offers a wide range of services, ranging from the peformance evaluation of air quality sensors, to the cultivation and DNA extraction of airborne microorganisms (e.g. bacteria and fungi) for their downstream characterisation and identification by next-generation sequencing techniques.
 The AIRLAB is equipped with state-of-the-art instruments and has different areas, one for microbiological cultures, another for molecular biology analysis, the other for chemical analysis, as well as a microscopy room. 
 
-## What is does the AIRLAB offer?
+## What does the AIRLAB offer?
 
 The AIRLAB offers technical and methodological assessment to ISGlobal research projects and to external research groups. ISGlobal researchers can also use the AIRLAB facilities upon request.
 
