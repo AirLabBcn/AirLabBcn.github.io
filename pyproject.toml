@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "airlabbcn"
+version = "0.1.0"
+description = "Website for the AIRLAB"
+authors = ["Adrián Fernández Cid <bambu_capoeira@hotmail.es>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "airlabbcn"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
