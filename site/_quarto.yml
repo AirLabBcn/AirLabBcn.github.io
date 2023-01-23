@@ -1,19 +1,79 @@
 project:
   type: website
 
+  render:
+    - index.qmd
+    - about.qmd
+    #- projects.qmd
+    #- contact.qmd
+    #- blog/index.qmd
+    #- blog/posts/*
+    #- ESRs/*
+
+execute: 
+  freeze: true  # We don't want to re-execute notebooks in every build
+
 website:
-  title: "site"
-  navbar:
+  title: "AIRLAB"
+  site-url: https://airlabbcn.github.io/
+  open-graph:
+    site-name: "AIRLAB"
+    #image: https://raw.githubusercontent.com/helical-itn/helical-itn.github.io/main/site/assets/site_images/helical_thumbnail.jpg
+    #title: "HELICAL - MSCA Innovative Training Network"
+   # description: "Official Website of the MSCA Innovative Training Network HELICAL: HEalth data LInkage for ClinicAL benefit"
+  #favicon: assets/favicon.png
+  page-footer:
+    border: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: |
+          <div class="msca-container flex-container">
+          <div class="msca-text">This project his very nice</div>
+          </div>
+      
+    right: |
+      Made with {{< fa brands r-project >}}, {{< fa brands python >}} and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub](https://github.com/helical-itn/helical-itn.github.io)
+     
+  navbar:
+    #logo: assets/institutional_logos/helical-logo.png
+
+    left:
+      - text: Home
+        href: index.qmd
+      
+      - text: About
+        href: about.qmd
+      
+    #  - text: Research
+     #   href: projects.qmd
+     # - text: Blog
+     #   href: blog/index.qmd
+      #- text: Contact
+      #  href: contact.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/airlabbcn
+      - icon: twitter
+        href: https://twitter.com/helicalitn
+      - icon: instagram
+        href: https://www.instagram.com/helicalnetwork/
+      - icon: linkedin
+        href: https://www.linkedin.com/company/helical-itn/
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    number-sections: false
+    highlight-style: github
+    theme:
+      light: litera
+   # css: styles.css
     toc: true
+    toc-location: right
+    code-tools: false
+    code-summary: "Show Code"
+
+
 
 
 
