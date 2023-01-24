@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: _site
+  #output-dir: _site
+  post-render: xcopy *.html ..
 
   render:
     - index.qmd
