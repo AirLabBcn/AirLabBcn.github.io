@@ -1,7 +1,7 @@
 project:
   type: website
   #output-dir: _site
-  post-render: mv *.html ..
+  #post-render: mv *.html ..
 
   render:
     - index.qmd
@@ -34,10 +34,10 @@ website:
       
     right: |
       Made with {{< fa brands r-project >}}, {{< fa brands python >}} and [Quarto](https://quarto.org/)<br>
-      [View the source at {{< fa brands github >}} GitHub](https://github.com/helical-itn/helical-itn.github.io)
+      [View the source at {{< fa brands github >}} GitHub](https://github.com/airlabbcn/airlabbcn.github.io)
      
   navbar:
-    #logo: assets/institutional_logos/helical-logo.png
+    logo: assets/logos/airlab-logo.jpeg
 
     left:
       - text: Home
