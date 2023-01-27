@@ -2,10 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://airlabbcn.github.io/index.html</loc>
-    <lastmod>2023-01-27T10:13:47.307Z</lastmod>
+    <lastmod>2023-01-27T10:26:25.659Z</lastmod>
   </url>
   <url>
     <loc>https://airlabbcn.github.io/about.html</loc>
-    <lastmod>2023-01-27T10:13:48.115Z</lastmod>
+    <lastmod>2023-01-27T10:26:26.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://airlabbcn.github.io/news.html</loc>
+    <lastmod>2023-01-27T10:26:26.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://airlabbcn.github.io/research.html</loc>
+    <lastmod>2023-01-27T10:26:27.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://airlabbcn.github.io/team.html</loc>
+    <lastmod>2023-01-27T10:26:27.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://airlabbcn.github.io/blog/index.html</loc>
+    <lastmod>2023-01-27T10:26:27.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://airlabbcn.github.io/models.html</loc>
+    <lastmod>2023-01-27T10:26:27.971Z</lastmod>
+  </url>
+  <url>
+    <loc>https://airlabbcn.github.io/resources.html</loc>
+    <lastmod>2023-01-27T10:26:28.279Z</lastmod>
+  </url>
+  <url>
+    <loc>https://airlabbcn.github.io/contact.html</loc>
+    <lastmod>2023-01-27T10:26:28.595Z</lastmod>
   </url>
 </urlset>

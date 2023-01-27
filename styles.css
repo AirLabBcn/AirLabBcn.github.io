@@ -1,0 +1,138 @@
+/* css styles */
+pre code {
+    font-size: 0.8em
+}
+
+.table {
+  font-size: 0.8em;
+}
+
+p {
+  text-align: justify;
+}
+
+figcaption.figure-caption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+summary {
+  font-size: 0.8em;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif
+}
+
+header {
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+navbar {
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+body {
+  font-family: Georgia, Cambria,"Times New Roman",Times,serif;
+}
+
+.lead {
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 1.275rem;
+}
+
+.navbar-logo {
+  max-height: 40px;
+}
+
+.navbar-title {
+  font-size: 1.6rem;
+  color: #2E579E;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 4px;
+}
+
+.menu-text {
+  font-size: 1.25rem;
+}
+
+.nav-footer-center {
+  inherits: nav_footer-left;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msca-logo {
+  min-width: 70px;
+  max-width: 70px;
+  float: left;
+  padding: 5px;
+}  
+
+.msca-text {
+  width: 100%;
+  max-width: 600px;
+  float: right;
+  padding: 10px;
+  text-align: justify;
+}
+
+.left-about {
+  width: 70%;
+  float: left;
+  padding: 5px;
+}
+
+.right-about {
+  width: 30%;
+  float: right;
+  padding: 5px;
+}
+
+table.hide-caption  caption {
+  display: none;
+}
+
+.img-profile {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+.profile-text {
+  font-size: 1rem;
+
+}
+
+.profile-text p {
+  text-align: left;
+}
+
+.profile-text a:link {
+  text-decoration: none;
+  color:#2E579E
+}
+
+.profile-text a:visited {
+  text-decoration: none;
+  color:#2E579E
+}
+
+.profile-text a:hover {
+  text-decoration: none;
+  color:#286cdf
+}
+
+.smaller-text {
+  font-size: 0.9rem;
+}
+
+.dataframe {
+  width: auto;
+  text-align: center;
+}
+
+.contact-text p {
+  font-size: .9rem;
+  text-align: left;
+}
