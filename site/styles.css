@@ -42,6 +42,7 @@ body {
   height: 70px;
   width: 70px;
   max-height: unset;
+  padding: 5px;
 }
 
 .navbar-title {

@@ -77,7 +77,7 @@ website:
       - icon: instagram
         href: https://www.instagram.com
       - icon: linkedin
-        href: https://www.linkedin.com/company/
+        href: https://www.linkedin.com/ #company/
 
 format:
   html:
