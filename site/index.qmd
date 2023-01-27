@@ -1,6 +1,6 @@
 ---
 title: "AIRLAB"
-subtitle: An ISGlobal facility
+subtitle: Air composition effects on human health
 ---
 
 ## What is the AIRLAB?
