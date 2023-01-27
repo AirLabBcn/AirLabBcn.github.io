@@ -1,7 +1,5 @@
 project:
   type: website
-  #output-dir: _site
-  #post-render: mv *.html ..
 
   render:
     - index.qmd
@@ -26,13 +24,14 @@ website:
     #image: https://raw.githubusercontent.com/helical-itn/helical-itn.github.io/main/site/assets/site_images/helical_thumbnail.jpg
     #title: "HELICAL - MSCA Innovative Training Network"
    # description: "Official Website of the MSCA Innovative Training Network HELICAL: HEalth data LInkage for ClinicAL benefit"
-  #favicon: assets/favicon.png
+  favicon: assets/logos/cercaginys-favicon-32x32.png
   page-footer:
     border: true
     left:
       - text: |
           <div class="msca-container flex-container">
-          <div class="msca-text">This project is very nice</div>
+          <div class="msca-logo"><img src="assets/logos/logo-isglobal.jpg" width=70px></div>
+          <div class="msca-text">The AIRLAB is an ISGlobal facility</div>
           </div>
       
     right: |
