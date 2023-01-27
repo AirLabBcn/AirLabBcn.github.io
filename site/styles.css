@@ -39,6 +39,8 @@ body {
 }
 
 .navbar-logo {
+  height: 70px !important;
+  width: 70px!important;
   max-height: 80px;
 }
 
@@ -64,8 +66,8 @@ body {
 }
 
 .msca-logo {
-  min-width: 70px;
-  max-width: 70px;
+  min-width: 170px;
+  max-width: 170px;
   float: left;
   padding: 5px;
 }  
