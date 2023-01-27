@@ -73,11 +73,11 @@ website:
       - icon: github
         href: https://github.com/airlabbcn
       - icon: twitter
-        href: https://twitter.com/helicalitn
+        href: https://twitter.com
       - icon: instagram
-        href: https://www.instagram.com/helicalnetwork/
+        href: https://www.instagram.com
       - icon: linkedin
-        href: https://www.linkedin.com/company/helical-itn/
+        href: https://www.linkedin.com/company/
 
 format:
   html:
