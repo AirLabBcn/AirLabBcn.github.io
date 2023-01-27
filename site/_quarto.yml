@@ -6,11 +6,14 @@ project:
   render:
     - index.qmd
     - about.qmd
-    #- projects.qmd
-    #- contact.qmd
-    #- blog/index.qmd
+    - news.qmd
+    - research.qmd
+    - team.qmd
+    - blog/index.qmd
+    - models.qmd
+    - resources.qmd
+    - contact.qmd
     #- blog/posts/*
-    #- ESRs/*
 
 execute: 
   freeze: true  # We don't want to re-execute notebooks in every build
@@ -45,13 +48,27 @@ website:
       
       - text: About
         href: about.qmd
+
+      - text: News
+        href: news.qmd
+
+      - text: Research
+        href: research.qmd
+
+      - text: Team
+        href: team.qmd
+
+      - text: Blog
+        href: blog/index.qmd
+
+      - text: Models
+        href: models.qmd
+
+      - text: Resources
+        href: resources.qmd
       
-    #  - text: Research
-     #   href: projects.qmd
-     # - text: Blog
-     #   href: blog/index.qmd
-      #- text: Contact
-      #  href: contact.qmd
+      - text: Contact
+        href: contact.qmd
 
     right:
       - icon: github
@@ -69,7 +86,7 @@ format:
     highlight-style: github
     theme:
       light: litera
-   # css: custom.css
+    css: styles.css
     toc: true
     toc-location: right
     code-tools: false
